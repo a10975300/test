@@ -63,10 +63,11 @@
     }
     
     footer {
-    background-color: #45546c;
+    background-color:#45546c;
     padding: 10px;
     text-align: center;
     color: white;
+
     }
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
     @media (max-width: 600px) {
@@ -122,7 +123,7 @@
     */
     /* unvisited link */
     a:link {
-    color:  #4B0082;
+    color: #008CBA;
     }
     /* visited link */
     a:visited {
@@ -189,6 +190,7 @@
     font-size: 20px;
     line-height:2;
     padding: 5px;
+    padding-bottom: 15px;
     }
     .speartself{
     columns:450px
@@ -202,6 +204,32 @@
     border:none;
     border-top:1px dashed #0066CC;
     }
+    .hr2{
+      width:80%;
+      height:auto;
+      background:#E0E0E0;
+    }
+    .formtext{
+      border: 3px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  padding: 10px;
+    }
+    .formtext:hover{
+      border: 3px solid #008CBA;
+  
+    }
+    .formbut{
+     padding: 5px;
+     border-radius: 8px;
+     background-color: #f1f1f1; 
+  color: black; 
+  border: 2px solid #008CBA;
+    }
+    .formbut:hover{
+     color:red;
+    }
+    
     </style>
   </head>
   <body>
@@ -265,6 +293,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#相關資訊">相關資訊</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#寫信給我">寫信給我</a>
+            </li>
             
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -326,6 +357,21 @@
             <a id="GITHUB"> <li class="asidebigtext"><img src="assets/img/github.png" alt="" width="40">GITHUB：&nbsp;</li></a>
             <li class="asidesmalltext"><a href="https://github.com/a10975300">@A10975300</a></li>
           </ul>
+
+
+<a id="寫信給我">
+          
+          <p class="asidebigtext"> &hearts;寫信給我</p></a>
+            <form action="mailto:a10975300@gmail.com?subject=message" method="get" accept-charset="utf-8" enctype="text/plain">
+              
+             <p> 姓名：<input class="formtext"  type="text" name="" value="" placeholder="name"> <p>
+            <p> 信箱：<input class="formtext" type="email" name="" value="" placeholder="email"> <p>
+           <p> <textarea  class="formtext" cols="26" rows="6"></textarea> </p>
+           <input class="formbut" type="submit" name="" value="送出">
+           <input class="formbut" type="reset" name="" value="清除">
+
+            </form>
+        
         </aside>
         
         <article>
@@ -336,7 +382,10 @@
             <p class="selfindex">&raquo;興趣：看電視、看漫畫、運動</p>
           </div>
           
+
           <hr class="hr1" />
+
+
           <a id="自我介紹"><p class="bigtitle">&rsaquo;&raquo;自我介紹<span class="smalltitle">XXXXX</span></p></a>
           <p class="innerindex"> 我的名字是吳明慧，我住在溫馨的桃園，出生在溫暖的家庭，爸爸是工程師，媽媽是家管，上有姊姊下有弟弟，家人生活相處融洽，氣氛也相當的融洽和樂。父母的教育方式，讓我從樂趣中學習，從「做」中學，父母希望我們能養成主動學習的精神，並學習獨立自主，培養興趣和熱情，也常適時的給予鼓勵和建議。我的家庭雖然平凡，但讓我真切的感受到了溫暖和愛。
           </p>
@@ -397,8 +446,13 @@
           </div>
         </article>
       </section>
-      <footer>
-        <a id="相關資訊"><h1>吳明慧 Wu Ming Hui&copy;版權</h1></a>
+      <footer >
+        <a id="相關資訊"><p>吳明慧 <br>
+        WU MING HUI<br>
+         &copy; 版權 </p></a>
+        
+        <hr class="hr2" />
+        
         
       </footer>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
