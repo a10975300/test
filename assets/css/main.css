@@ -29,7 +29,7 @@ text-align: center;
 aside {
 float: right;
 width: 22%;
-height: 5000px;/*改這*/
+height: 4950px;/*改這*/
 background: #E6E6FA;
 padding: 20px;
 }
@@ -43,7 +43,7 @@ float: right;
 padding: 20px;
 width: 78%;
 background-color:#C0C0C0;
-height: 5000px;  /*改這 */
+height: 4950px;  /*改這 */
 }
 
 section:after {
