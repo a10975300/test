@@ -28,8 +28,8 @@ text-align: center;
 
 aside {
 float: right;
-width: 22%;
-height: 4950px;/*改這*/
+width: 23%;
+height: 5000px;/*改這*/
 background: #E6E6FA;
 padding: 20px;
 }
@@ -41,9 +41,9 @@ padding: 0;
 article {
 float: right;
 padding: 20px;
-width: 78%;
+width: 77%;
 background-color:#C0C0C0;
-height: 4950px;  /*改這 */
+height: 5000px;  /*改這 */
 }
 
 section:after {
@@ -81,6 +81,7 @@ display:block;
 margin:auto;
 border: 10px solid  #45546c;
 box-shadow: 12px 12px 5px grey;
+width: 75%;
 
 }
 .lifeimg:hover {
@@ -137,6 +138,7 @@ border: 5px solid  #45546c;
 display:block;
 margin:auto;
 margin-top: 10px;
+width:26%;
 
 }
 .selfimg{
@@ -145,7 +147,7 @@ border: 5px solid  #45546c;
 display:block;
 margin:auto;
 margin-top: 10px;
-width:250px;
+width:75%;
 }
 .bigtitle{
 font-size: 32px;
@@ -185,11 +187,12 @@ padding: 5px;
 padding-bottom: 15px;
 }
 .speartself{
-columns:450px
+columns:2;
 }
 .selfindex{
 
-padding: 15px;
+padding: 6px;
+padding-top: 16px;
 }
 .hr1{
 height:1px;
